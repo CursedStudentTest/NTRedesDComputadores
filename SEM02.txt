@@ -1,0 +1,62 @@
+Meios de Transmissão: Com Cabeamento e Sem Cabeamento;
+
+Com Cabeamento: Coaxial, Par Trançado, Fibra Óptica;  
+
+Coaxial - Anatomia: É um fio de antena. Fio de cobre condutor envolto em um tubo plástico isolador que é coberto por uma blindagem de cobre ou alumínio (sua função é impedir que a interferência de outras cargas elétricas interfiram no fio de cobre);
+
+Par Trançado - Anatomia: fio de patch cord. 4 Pares de fios entrelaçados de cobre (um de sua cor e seu respectivo branco), cobertos por uma capa de plástico. Esse entreleçamento reduz os ruídos eletromagnéticos de fontes externas. A blindagem é milimetricamente aplicada de forma a reduzir ao máximo a interferência com os outros fios (pensando em uma proporção em relação ao tamnho do fio); Nomenclaturas: Com proteção (STP - Shielded Twisted Pair) Sem proteção (UTP - Unshielded Twisted Pair); Mais utilizados hoje em dia: Cat5.e (melhor) e Cat6; 
+	
+           Largura de banda      Velocidade 
+Cat 5.e -      1000Mhz       -    1GBits
+Cat 6   -      2500Mhz       -    10GBits
+
+O cabo cat 5.e sofre menos interferências por conta da espessura do fio. Em contra-partida, o cat6 é mais robusto; 
+
+Convertendo bit em byte; 
+
+bit - 0 e 1;
+byte - 8 bits;
+
+KByte - 1024 Bytes = 1KByte; 
+
+Quando você contrata um serviço de internet, você paga por megabits. Mas, no uso diario, você usa megabytes; 
+
+Vamos supor que um serviço de internet seja de 500Mb (bits); Para descobrir qual será a taxa diária, basta dividir o valor por 8 (8 bits); 
+Ou seja, para 500Mb, sua velocidade máxima de download será de 62.5 MB (nota-se Mb - bits e MB - bytes);
+
+Os conectores do Cat 5.e tem os dentes alinhados (por conta do tamanho dos fios); Já o cat6 possui os dentes em formato de V (para se adequar ao fio mais grosso de cobre);
+
+Fibra Óptica - Anatomia: Filamento fino e pouco flexível feito em sílica. Esse envoltório de sílica serve como um isolamento elétrico que impede a interferência eletromagnética; A transmissão dos dados é ffeita pela reflexão luminosa dentro do cabo; 
+Possui vários modelos. 
+Principais diferênças: Uns podem possuir o núcleo envolto em vidro ou plástico; E há diferênça na forma de transmissão da luz: MonoModo - Somente um feixe de luz em um ângulo fixo para a transmissão. MultiModo - O feixe pode ser transmitido em dois ou mais ângulos de inflexão, mais sinais por vez; 
+
+Essa fibra possui uma alta taxa de transmissão (chega aos 40Gb), menor custo e dura mais (não sofre oxidação); Porém, os equipamentos para a fusão (na produção do cabo), a mão de obra, conectores e switchs para instalação são mais caros; São mais frágeis e menos maleáveis do que os par trançado; 
+
+
+Conversores de mídia podem fazer a fibra óptica ser convertida para o par trançado e vice versa; 
+
+Sem Cabeamento: Informação trafega por ondas eletromagnéticas; 
+Atenuação: Perda da intensidade do sinal. Ao passar por obstáculos ou percorrer distâncias muito longas; 
+
+Tipos: Distâncias Muito Curtas, Pequeno Alcance, Longo Alcance;
+
+Distancias Muito Curtas (< 3m): Infravermelho - Controle Remoto, NFC (Near Field Communication) - Pagamento por aproximação, RFID (Radio Frequêncy Identification) - Token de aproximação - Chave de aproximação;
+
+Pequêno Alcance (10m < 200m): Wi-fi, Bluetooth;
+
+Redes de Longo Alcance (> Km): Sinal de TV, Rede de Celular, 3G, 4G, 5G... 
+
+Meios de Transmissão - 2 Fatores principais:
+
+Bandwidth - Largura de Banda - Quantidade de faixas e velocidade do tráfego; 
+Lantência - Ping pong; 
+
+A Velocidade (Bandwidth) é limitada pela latência; Já a latência é limitada por alguma tecnologia de condução da informação; 
+Operadoras de internet vendem a largura de banda, porém você só vai poder utilizar a taxa de download;
+
+O que pode interferênciar na comunicação: 
+
+- Serviço do Plano Contratado (limitar a internet a tantos Mb);
+- Rotas (Distância de onde está o servidor principal e as rotas que chegam até você); 
+- Quantidade de Dispositivos conectados;
+
